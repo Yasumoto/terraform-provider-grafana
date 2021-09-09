@@ -1,5 +1,7 @@
 module github.com/grafana/terraform-provider-grafana
 
+replace github.com/grafana/grafana-api-golang-client => /home/joe/workspace/github.com/grafana/grafana-api-golang-client
+
 go 1.16
 
 require (
